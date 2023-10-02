@@ -1,12 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 20px;
+    margin: 100px;
     text-align: center;
 }
 
 header {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #db3434;
+    color: #fffbfb;
     padding: 20px;
 }
 
@@ -24,9 +24,9 @@ section {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
+    max-width: 20%;
+    height: 50;
+    border-radius: 0%;
     display: block;
     margin: 0 auto;
     overflow: hidden; /* To ensure the image stays within the rounded border */
@@ -34,7 +34,7 @@ img {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10;
 }
 
 ul li {
