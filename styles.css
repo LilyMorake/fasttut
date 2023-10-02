@@ -26,9 +26,10 @@ section {
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 20%;
+    border-radius: 50%;
     display: block;
     margin: 0 auto;
+    overflow: hidden; /* To ensure the image stays within the rounded border */
 }
 
 ul {
