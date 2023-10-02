@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #db3434;
-    color: #fffbfb;
+    background-color: #fe3919;
+    color: #fff;
     padding: 20px;
 }
 
@@ -25,8 +25,8 @@ section {
 
 img {
     max-width: 20%;
-    height: 50;
-    border-radius: 0%;
+    height: auto;
+    border-radius: 10%;
     display: block;
     margin: 0 auto;
     overflow: hidden; /* To ensure the image stays within the rounded border */
@@ -34,7 +34,7 @@ img {
 
 ul {
     list-style-type: none;
-    padding: 10;
+    padding: 5;
 }
 
 ul li {
