@@ -1,16 +1,19 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 100px;
+    margin: 20px;
     text-align: center;
+    background-color: #f8f9fa; /* Set a light background color */
 }
 
 header {
-    background-color: #fe3919;
+    background-color: #3498db;
     color: #fff;
     padding: 20px;
 }
 
 header h1 {
+    font-size: 200%;
+    text-;
     margin: 0;
 }
 
@@ -19,11 +22,17 @@ header p {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: left;
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
 
+
 img {
+    border-bottom: 2px solid #3498db; /* Blue underline for heading */
     max-width: 20%;
     height: auto;
     border-radius: 10%;
@@ -33,12 +42,53 @@ img {
 }
 
 ul {
+    
     list-style-type: none;
-    padding: 5;
+    padding: 0;
 }
 
 ul li {
+    
     margin-bottom: 5px;
+}
+
+.job,
+.degree,
+.project {
+    margin-bottom: 20px;
+}
+/* Education Section Styling */
+#education {
+    background-color: #f9f9f9; /* Light background for education section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#education h2 {
+    color: #333; /* Darker color for heading */
+    border-bottom: 2px solid #3498db; /* Blue underline for heading */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Bio Section Styling */
+#bio {
+    background-color: #f0f0f0; /* Light gray background for bio */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#bio h2 {
+    color: #333; /* Darker color for heading */
+    border-bottom: 2px solid #3498db; /* Blue underline for heading */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#bio p {
+    color: #555; /* Slightly darker text color */
+    line-height: 1.6;
 }
 
 /* Add more styles as needed */
